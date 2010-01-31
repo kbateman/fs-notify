@@ -1,9 +1,10 @@
 Foursquare Notifier
 
+Foursquare Notifier (fs-notify) was created by Kirk Bateman <kirk.bateman@gmail.com>, basically because I wanted to knock something together and I really quite like foursquare.
+
 Just a quickly knocked together python app for linux.
 
-It uses the foursquare api to poll at a regular interval for any checkins from your friends.
-Then it displays any checkins, or shouts using the pynotify api.
+It uses the foursquare api to poll at a regular interval for any checkins from your friends. Then it displays any checkins, or shouts using the pynotify api.
 
 Avatar images are cached in the cache/ folder to minimize traffic used to get images.
 
@@ -13,5 +14,7 @@ So requirements:
 	foursquare
 	pygtk (really only used for the poll timer)
 
-Foursquare.py - v0.1.1 Created by Ismail Dhorat @ http://zyelabs.net
+You can find the python foursquare api at: 
+	http://github.com/zyelabs/python-foursquare
+	written by Ismail Dhorat (zyelabs)
 
